@@ -1,0 +1,90 @@
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+### Eclipse ###
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+
+### Linux ###
+*~
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+
+### Git ###
+*.orig
+
+
+### m2e ###
+.classpath
+.project
+
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### ANS ###
+.idea/
+.metadata/
+.pmd
+*.7z
+*.bz2
+*.bzip
+*.deb
+*.gz
+*.iml
+*.iso
+*.log
+*.lzma
+*.o
+*.rar
+*.rpm
+*.so
+*.tar
+*.xz
+*.zip
+*~
+ajcore*
+classes/
+
