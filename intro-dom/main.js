@@ -14,6 +14,8 @@ window.onload = () =>{
         const elementos = document.querySelectorAll('#todo-list li');
         elementos.forEach((elemento,i)=>{
             elemento.addEventListener('click',()=>{
+            elemento.parentNode.removeChild(elemento);
+            todos.splice(i,1);
             console.log(elemento,i);
             });
         });
