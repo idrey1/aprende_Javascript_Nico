@@ -11,6 +11,14 @@ app.put('/:id', User.update);
 app.patch('/:id', User.update);
 app.delete('/:id', User.destroy);
 
+app.get('*',(req,res)=>{
+    res.status(404).send('Esta página no existe!!!');
+});
+
+app.post('*',(req,res)=>{
+    res.status(404).send('Esta página no existe!!!');
+});
+
 app.listen(port,()=>{
     console.log('Arrancando la aplicación');
 });
